@@ -4,18 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.MainActivity">
+    tools:context=".view.DetailsActivity">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/viewMain">
+        android:id="@+id/details">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Bienvenue!" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/retour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="5dp"
+                android:padding="10dp"
+                android:text="Retour"
+                android:textAllCaps="false"
+                android:tooltipText="retour" />
+
+        </LinearLayout>
 
     </ScrollView>
 
@@ -23,7 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="@id/viewMain">
+        app:layout_constraintBottom_toBottomOf="@id/details">
 
         <TextView
             android:layout_width="match_parent"
@@ -31,7 +45,7 @@
             android:layout_gravity="bottom"
             android:background="@color/colorPrimary"
             android:paddingLeft="15dp"
-            android:text="Nombre d'articles: 0"
+            android:text="Détails"
             android:textStyle="bold"
             android:textColor="#ffffff"/>
     </LinearLayout>

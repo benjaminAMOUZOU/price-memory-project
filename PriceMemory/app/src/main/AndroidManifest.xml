@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/round_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.MainActivity">
+        <activity android:name=".view.ExportActivity"></activity>
+        <activity android:name=".view.ImportActivity" />
+        <activity android:name=".view.DetailsActivity" />
+        <activity android:name=".view.MainActivity" />
+        <activity android:name=".view.EditActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
