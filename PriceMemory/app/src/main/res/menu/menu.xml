@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/recherche"
+        android:title="Rechercher"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.widget.SearchView" />
+    <item
+        android:id="@+id/menuNouveau"
+        android:title="Nouveau" />
+    <item
+        android:id="@+id/menuExportation"
+        android:title="Exportation" />
+    <item
+        android:id="@+id/menuImportation"
+        android:title="Importation" />
+</menu>

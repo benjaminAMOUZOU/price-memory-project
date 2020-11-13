@@ -31,7 +31,8 @@
             android:layout_gravity="bottom"
             android:background="@color/colorPrimary"
             android:paddingLeft="15dp"
-            android:text="Nombre d'articles: 0"
+            android:paddingBottom="3dp"
+            android:text="Articles: 0"
             android:textStyle="bold"
             android:textColor="#ffffff"/>
     </LinearLayout>
