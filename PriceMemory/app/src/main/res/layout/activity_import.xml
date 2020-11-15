@@ -7,9 +7,9 @@
     tools:context=".view.ImportActivity">
 
     <ScrollView
+        android:id="@+id/viewImport"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/viewImport">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -58,7 +58,8 @@
                     android:layout_marginRight="5dp"
                     android:padding="10dp"
                     android:text="Annuler"
-                    android:textAllCaps="false" />
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary" />
 
                 <Button
                     android:id="@+id/importer"
@@ -68,7 +69,8 @@
                     android:layout_marginRight="5dp"
                     android:padding="10dp"
                     android:text="Importer"
-                    android:textAllCaps="false" />
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary" />
 
             </LinearLayout>
 
@@ -92,8 +94,8 @@
             android:paddingLeft="15dp"
             android:paddingBottom="3dp"
             android:text="Importation"
-            android:textStyle="bold"
-            android:textColor="#ffffff"/>
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

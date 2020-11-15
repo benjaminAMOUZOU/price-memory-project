@@ -7,9 +7,9 @@
     tools:context=".view.ExportActivity">
 
     <ScrollView
+        android:id="@+id/export"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/export">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -58,7 +58,8 @@
                     android:layout_marginRight="5dp"
                     android:padding="10dp"
                     android:text="Annuler"
-                    android:textAllCaps="false" />
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary" />
 
                 <Button
                     android:id="@+id/exporter"
@@ -68,7 +69,9 @@
                     android:layout_marginRight="5dp"
                     android:padding="10dp"
                     android:text="Exporter"
-                    android:textAllCaps="false" />
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    />
 
             </LinearLayout>
 
@@ -92,8 +95,8 @@
             android:paddingLeft="15dp"
             android:paddingBottom="3dp"
             android:text="Exportation"
-            android:textStyle="bold"
-            android:textColor="#ffffff"/>
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

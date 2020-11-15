@@ -27,7 +27,8 @@
                 android:padding="10dp"
                 android:text="Retour"
                 android:textAllCaps="false"
-                android:tooltipText="retour" />
+                android:tooltipText="retour"
+                android:textColor="@color/colorPrimary"/>
 
         </LinearLayout>
 
